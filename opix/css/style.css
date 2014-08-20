@@ -1,0 +1,77 @@
+	    *{margin:0px; padding:0px;}
+	    body{
+			margin:10px; 			
+			font:11px verdana;
+			color:#333;}
+		
+		.sucess
+		{
+			font:11px verdana;
+			color:#333;
+			background-color: #f9f9f9;
+			border:1px solid #999;
+			padding:4px;
+			display:none;
+			width:350px;
+		}
+		
+		.error
+		{
+			font:11px verdana;
+			color:red;
+			background-color: #f9f9f9;
+			border:1px solid red;
+			padding:10px;
+			display:none;
+			width:350px;		
+		}
+		
+		label
+		{
+			display:block;
+			width:130px;
+			float:left;
+			font:11px verdana;
+			color:#333;
+			padding:3px;
+			padding-right:4px;
+			border:0px solid #333;
+			text-align:right;
+		}
+		
+		input
+		{
+			font:11px verdana;
+			color:#333;
+			background-color: #f9f9f9;
+			border:1px solid #999;
+			padding:2px;
+		}
+		
+		button
+		{
+			font:11px verdana;
+			color:#333;
+			background-color: #f9f9f9;
+			border:1px solid #999;
+			padding:1px;
+		}	
+		
+		#enderecoCompleto
+		{
+			display:none;
+		}
+		
+		.red
+		{
+			border:1px solid red;
+		}
+		
+		.green
+		{
+			border:1px solid green;
+		}		
+		htmlpagefooter {
+			height: 200px; 
+			border: 1px solid red;	
+		}

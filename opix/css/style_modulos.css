@@ -1,0 +1,126 @@
+.navigation{
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.navigation .item{
+    position:absolute;
+}
+.fin{
+    top:50px;
+    left:600px;
+}
+.com{
+   top:50px;
+   left:800px;
+}
+.pro{
+   top:50px;
+   left:1000px;
+}
+.est{
+   top:250px;
+   left:600px;
+}
+.ven{
+   top:250px;
+   left:800px;
+}
+.rec{
+   top:250px;
+   left:1000px;
+}
+.adm{
+   top:450px;
+   left:600px;
+}
+a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
+.fin a.icon{
+    background:transparent url(../imagens/financeiro.png) no-repeat 0px 0px;
+}
+.com a.icon{
+    background:transparent url(../imagens/compras.png) no-repeat 0px 0px;
+}
+.pro a.icon{
+    background:transparent url(../imagens/prod.png) no-repeat 0px 0px;
+}
+.est a.icon{
+    background:transparent url(../imagens/estoque.png) no-repeat 0px 0px;
+}
+.ven a.icon{
+    background:transparent url(../imagens/vendas.png) no-repeat 0px 0px;
+}
+.rec a.icon{
+    background:transparent url(../imagens/rhumanos.png) no-repeat 0px 0px;
+}
+.adm a.icon{
+    background:transparent url(../imagens/admin.png) no-repeat 0px 0px;
+}
+.navigation .item a.active{
+    background-position:0px -52px;
+}
+.item img.circle{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+    opacity:0.1;
+}
+.item h2{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:18px;
+    top:0px;
+    left:52px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h2.active{
+    color:#fcc508;
+    text-shadow:1px 0px 1px #555;
+}
+.item ul{
+    list-style:none;
+    position:absolute;
+    top:60px;
+    left:25px;
+    display:none;
+}
+.item ul li a{
+    font-size:15px;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#222;
+    padding:3px;
+    float:left;
+    clear:both;
+    width:100px;
+    text-shadow:1px 1px 1px #fff;
+}
+.item ul li a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
+

@@ -1,0 +1,136 @@
+/* jquery.formbuilder css */
+
+.frmb-control { }
+
+.frmb-submit { }
+
+ul.frmb {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.frmb li {
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid #EEE;
+}
+
+.frmb li:hover {
+	border: 1px solid #F7CA75;
+	background: #FFFEEB;
+}
+
+.frmb .legend {
+	cursor: move;
+}
+
+.frmb .legend .toggle-form {
+	background: url("../../images/icoUp.png") no-repeat scroll center top transparent;
+	float: right;
+	width: 24px;
+	height: 24px;
+}
+
+.frmb .legend .toggle-form.closed{
+	background: url("../../images/icoDown.png") no-repeat scroll center top transparent;
+	width: 24px;
+	height: 24px;
+}
+
+.frm-elements {
+	padding: 5px 0;
+}
+
+.frm-elements label {
+	width: 20%;
+	float: left;
+	margin-left: 5px;
+	line-height: 24px;
+}
+
+.frm-elements .false-label {
+	width: 20%;
+	float: left;
+	margin-left: 5px;
+	line-height: 24px;
+}
+
+.frm-elements input[type=text] {
+	float: left;
+	width: 70%;
+}
+
+.frm-elements .fields {
+	width: 70%;
+	float: left;
+}
+
+.frm-elements .fields input[type=checkbox],
+.frm-elements .fields input[type=radio] {
+	float: left;
+	margin-right: 10px;
+}
+
+.frm-elements .false-label,
+.frm-elements .fields { margin-top: 10px }
+
+.frm-elements .fields div {
+	clear: both;
+	float: left;
+	width: 99%;
+	cursor: move;
+}
+
+.frm-elements .fields input[type=text] {
+	width: 75%;
+}
+
+.frm-elements .fields label.auto {
+	width: auto;
+	margin: 0 0 5px 0;
+}
+
+.frm-elements .fields .remove {
+	margin-left: 10px;
+	line-height: 24px;
+}
+
+.frm-elements .fields .add-area {
+	position: relative;
+	left: -30px;
+	line-height: 0;
+	margin-top: -13px;
+}
+
+.frm-elements .fields .add-area .add {
+	background: url("../../images/icoAdd.png") no-repeat scroll center top transparent;
+	clear: both;
+}
+
+.frm-elements:after,
+.frm-fld:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.frm-elements,
+.frm-fld { display: inline-block }
+
+.frm-elements,
+.frm-fld { display: block }
+
+.del-button {
+	background: url("../../images/icoDelete.png") no-repeat scroll center top transparent;
+	float: right;
+	margin-right: 10px;
+	width: 24px;
+	height: 24px;
+}
+
+/* html display helpers */
+textarea, .multi-row span { display: block; }
+
+.fields div ol li { list-style:none; height:50px; }

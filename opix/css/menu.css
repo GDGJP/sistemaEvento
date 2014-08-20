@@ -1,0 +1,115 @@
+
+#menu_dropdown {
+    background: url("../imagens/bgmenu.png") repeat scroll 0 0 #ABD0D8 ;
+    border: 1px solid #93C3CD;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0 5px;
+    width: 790px;
+}
+
+
+
+ul.menubar{
+	z-index: 2000; /* IE7 Bug */
+	width:780px;
+	margin: 0 auto;
+	background-color:; /* IE6 Bug */
+}
+
+ul.menubar .submenu{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float:left; 
+}
+
+ul.menubar ul.menu{
+  display: none;
+  position: absolute;
+  margin: 0px;
+}
+  
+ul.menubar a {
+    border-right: 1px solid #5DA3B1;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+ul.menu, ul.menu ul{
+  margin: 0;
+  padding: 0;
+  z-index: 1000; /* IE7 Bug */
+  width: 150px; 
+  background-color: #91CAD6; /* IE6 Bug */
+  /*opacity: 0.75;*/
+ 
+} 
+ 
+ul.menu li{
+  position: relative;
+  list-style:none;
+  z-index: 1000; /* IE7 Bug */
+
+}
+ 
+ul.menu li a{
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+  padding: 5px 10px 5px 5px;
+  z-index: 1000; /* IE7 Bug */
+ font-size: 13px;
+}
+  
+ul.menu ul{
+  position: absolute;
+  display: none;
+  left: 149px; /* Definir 1px menor que o tamannho do menu */
+  top: 0px; 
+  z-index: 1000; /* IE7 Bug */
+}
+
+ul.menu li.submenu {
+  width: 150px; 
+  position: relative; 
+  list-style:none; 
+  float:none;  
+  z-index: 1000; /* IE7 Bug */
+}
+/* 
+Regra 10 - Classe que define a aparencia dos links do 3o n�vel de menus
+*/ 
+ul.menu li.submenu a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+  padding: 5px 10px 5px 5px;
+}
+
+/* Fixar IE. Invis�vel para IE Mac \*/
+* html ul.menu li { float: left; height: 1%; } /* Regra 11 */
+* html ul.menu li a { height: 1%; } /* Regra 12 */
+* html ul.menu li.submenu { float: none; height: 1%; } /* Regra 13 */
+* html ul.menu li.submenu a { height: 1%; } /* Regra 14 */
+/* Fim */
+
+/* 
+Regra 15 - Classe que torna os sub-menus invis�veis inicialmente
+*/ 
+ul.menu li.submenu ul { display: none; } 
+	z-index: 1000; /* IE7 Bug */
+/* 
+Regra 16 - Classe que insere a imagem da seta para a direita no menu vertical
+*/  
+ul.menu li.submenu {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 93% 50%;
+  z-index: 1000; /* IE7 Bug */
+}

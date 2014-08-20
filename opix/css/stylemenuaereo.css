@@ -1,0 +1,143 @@
+/*BODY E CORPÒ PASTA EVENTOS*/
+body.evento {
+    background: url("/aniderp/imagens/bgvencontro.png") repeat fixed center center transparent;
+    font: 11px Arial,Helvetica,sans-serif;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+}
+#corpoVencontro {
+    background: url("../imagens/bgclean.png") repeat scroll 0 0 transparent;
+    border-radius: 20px 20px 20px 20px;
+    height: auto;
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid #E0D3C5;
+}
+/*FINAL BODY E CORPÒ PASTA EVENTOS*/
+
+html, body {margin:0; padding:0; width:100%; height:100%; font: 11px Arial,Helvetica,sans-serif; }
+#background{position:fixed; z-index:-1; width:100%; height:100%;}
+#h3titulos{	font-family: Helvetica;	color: #cc0000;	font-size: 20px;}
+#h2titulos{	font-family: "Arial";font-size: 20px; padding-bottom: 30px;}
+.p_central_index { color: #555555; font-family: Helvetica; font-size: 10.5px; padding-left: 12px; text-decoration: none; }
+
+img {
+	border: none;
+}
+
+.imprmirPDF_btn{
+	margin-top: 15px;
+	float: right;
+    padding-right: 30px;
+    text-align: right;
+    width: 700px
+}
+
+
+
+/* dock - top */
+.dock {
+	position: relative; 
+	height: 50px; 
+	text-align: center;
+}
+.dock-container {
+	position: absolute;
+	height: 50px;
+	background: url("../imagens/bgmenu1.gif");
+	padding-left: 20px;	
+	border-left: 1px solid silver;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+	
+	/* BORDA ARREDONDA PARA TODOS OS NAVEGARORES */
+	border-radius: 0 0 15px 15px; /* Para Opera 10.5+*/
+	-moz-border-radius: 0 0 15px 15px; /* Para Firefox */
+	-webkit-border-radius: 0 0 15px 15px; /*Para Safari e Chrome */
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 50px;
+	background: url("../imagens/bgmenu.gif");
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+
+/* CONFIGURACOES TELAS NEWHC */
+#area{	width:100%;	height:auto; margin:30px auto auto; border-radius: 20px; padding-top: 20px; }
+#box_fin {background: url("../imagens/bgbox_fin.png");float: left; height: 155px; margin: 0 0 16px 12px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_com {background: url("../imagens/bgbox_com.png");float: left; height: 155px; margin: 0 0 16px 16px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_pro {background: url("../imagens/bgbox_pro.png");float: left; height: 155px; margin: 0 0 16px 16px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_est {background: url("../imagens/bgbox_est.png");float: left; height: 155px; margin: 0 0 16px 12px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_ven {background: url("../imagens/bgbox_ven.png");float: left; height: 155px; margin: 0 0 16px 16px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_rh  {background: url("../imagens/bgbox_rh.png"); float: left; height: 155px; margin: 0 0 16px 16px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_evt {background: url("../imagens/bgbox_evt.png");float: left; height: 155px; margin: 0 0 16px 12px; padding: 10px; width: 228px; opacity: 0.85;}
+#box_temp1 {background: url("../imagens/#.png");float: left; height: 155px; margin: 0 0 16px 16px; padding: 10px; width: 100px; opacity: 0.85;}
+#box_temp2 {background: url("../imagens/#.png");float: left; height: 155px; margin: 0 0 16px 16px; padding: 10px; width: 100px; opacity: 0.85;}
+
+/* TELAS CENTRAL ASSOCIADOS*/
+#area_centralassociados { padding: 10px 40px; width: 720px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+#box_dados 	{background: url("../imagens/bgbox_dados.png");	float: left; 	height: 215px; 	width: 340px; margin-bottom: 20px;}
+#box_fat 	{background: url("../imagens/bgbox_fat.png"); 	float: right; 	height: 215px; 	width: 340px; margin-bottom: 20px;}
+#box_his 	{background: url("../imagens/bgbox_his.png");	float: left; 	height: 215px; 	width: 340px; margin-bottom: 20px;}
+#box_cur 	{background: url("../imagens/bgbox_cur.png"); 	float: right; 	height: 215px;	width: 340px; margin-bottom: 20px;}
+
+/* TELAS CENTRAL ASSOCIADOS*/
+#area_eventos{	width:100%;	height:330px; margin:30px auto auto; border-radius: 20px; padding-top: 20px;}
+#box_eve 	{background: url("../imagens/bgbox_eve.png");	float: left; 	height: 230px; 	width: 330px; margin: 20px 0 0 30px; padding: 10px;}
+#box_ins 	{background: url("../imagens/bgbox_ins.png");	float: left; 	height: 230px; 	width: 330px; margin: 20px 0 0 30px; padding: 10px;}
+
+#themas {margin: auto; margin:20px; text-align: center}
+#themas img {margin: 0px 5px 5px 0px;}  
+
+/* CERTIFICADO*/
+#certificado{background: url("../imagens/certificado.jpg") no-repeat scroll 0 0 transparent; height: 570px}
+
+

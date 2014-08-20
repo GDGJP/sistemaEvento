@@ -1,0 +1,49 @@
+/*
+Responsive Template Name: RS-1 Clean
+File: Navigation CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+/* ----------------------------------------------Top Navigation-------------------------------------*/
+
+#topnav{float:right; clear:right; padding-top:20px;}
+#topnav li{float:left; margin-right:14px; padding-right:15px; border-right:1px solid #666666;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; margin:0; padding:0; font-weight:normal;}
+#topnav li a:hover, #topnav li.active a{color:#009EE0; background-color:#FFFFFF;}
+#topnav li.last{margin:0; padding:0; border:none;}
+
+/* Top navigation for smaller resolutions */
+
+#topnav .mnav{display:block; position:relative; width:100%; height:30px; margin:0 auto; padding:5px; color:#FFFFFF; background-color:#232323; border:1px solid #494949; cursor:pointer; outline:none;}
+#topnav .mnav option{margin:5px 10px; cursor:pointer;}
+#topnav .mnav optgroup{margin-bottom:10px;}
+#topnav .mnav optgroup[label]{margin-left:12px; text-transform:uppercase; font-style:normal; font-weight:normal;}
+#topnav .mnav optgroup option{padding:0; text-transform:none;}
+
+/* ----------------------------------------------Column Navigation-------------------------------------*/
+
+#container aside nav{display:block; width:100%; margin-bottom:30px;}
+#container aside nav ul{margin:0; padding:0; list-style:none;}
+#container aside nav li{margin:0 0 3px 0; padding:0;}
+#container aside nav ul ul, #container aside nav ul ul ul, #container aside nav ul ul ul ul, #container aside nav ul ul ul ul ul{border-top:none; padding-top:0;}
+#container aside nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#container aside nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+#container aside nav ul ul a, #container aside nav ul ul ul a, #container aside nav ul ul ul ul a, #container aside nav ul ul ul ul ul a{background:url("../images/black_file.gif") no-repeat #FFFFFF;}
+#container aside nav ul ul a{padding-left:40px; background-position:30px center;}
+#container aside nav ul ul ul a{padding-left:50px; background-position:40px center;}
+#container aside nav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#container aside nav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
+
+/* ----------------------------------------------Pagination-------------------------------------*/
+
+#container .pagination{display:block; width:100%; text-align:center; clear:both; font-family:Verdana, Geneva, sans-serif;}
+#container .pagination ul{margin:0; padding:0; list-style:none;}
+#container .pagination li{display:inline;}
+#container .pagination strong{font-weight:normal;}
+#container .pagination .next{margin:0;}
+#container .pagination a, #container .pagination .current strong, #container .pagination .splitter strong{display:inline-block; padding:2px 6px; margin:0 2px 0 0;}
+#container .pagination a{border:1px solid #DFDFDF;}

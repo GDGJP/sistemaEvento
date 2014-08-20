@@ -1,0 +1,16 @@
+php_value memory_limit 1024M
+php_value upload_max_filesize 5M
+
+RewriteEngine ON
+
+RewriteCond %{HTTP_HOST} ^anid.com.br [NC]
+RewriteRule ^(.*)$ http://www.anid.com.br/7encontro/opix/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z_]+)[/]*$ index.php?controller=$1&view=index
+RewriteRule ^([a-zA-Z_]+).html$ index.php?controller=index&view=$1 [QSA]
+RewriteRule ^([a-zA-Z_]+)/([a-zA-Z_]+).html$ index.php?controller=$1&view=$2 [QSA]
+RewriteRule ^([a-zA-Z_]+)/([a-zA-Z_]+)/([0-9]+)[-]+[a-zA-Z0-9_-]+.html$ index.php?controller=$1&view=$2&id=$3 [QSA]
+RewriteRule ^([a-zA-Z_]+)/([a-zA-Z_]+)/([0-9]+)_([0-9]+)[-]+[a-zA-Z0-9_-]+.html$ index.php?controller=$1&view=$2&id=$3&passo=$4
+RewriteRule ^([a-zA-Z_]+)/([a-zA-Z_]+)/([0-9]+)[-]+[-h]+([a-zA-Z0-9_]+).html$ index.php?controller=$1&view=$2&id=$3&hash=$4

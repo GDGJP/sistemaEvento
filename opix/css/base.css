@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+@import url(../css/layout.css);
+
+* { margin: 0; padding: 0; border: 0; outline: 0; }
+
+html { 
+cursor: default;
+}
+
+body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #555555; }
+
+ul, ol { list-style: none; }
+
+h1 { font-size: 18px; font-family: "Arial Narrow", Arial, Helvetica, sans-serif; font-weight: normal; }
+
+h2 { padding-bottom: 10px; font-size: 14px; font-family: "Arial Narrow", Arial, Helvetica, sans-serif; font-weight: normal; }
+
+h1 span { display: none; }
+
+input,
+textarea,
+select { background-color: #E9E9E9; padding: 3px; border: 1px solid #BDBDBD; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #555555; }
+
+
+input.valor, select.valor, textarea.valor {
+        font-size: 20px;
+        background: transparent;
+        color: red;
+        border: 0;
+}
+
+input.editNoFocus,
+textarea.editNoFocus,
+select.editNoFocus { overflow: auto; }
+
+input.editFocus,
+textarea.editFocus,
+select.editFocus { background-color: #ffffff; border: 1px dashed #FF9900; overflow: auto; }
+
+#form input{margin-bottom: 0px;}
+
+#form input.createpdf{margin: 0 0 -10px 15px; border-radius: 5px}
+
+a { text-decoration: none; color: #555555; }
+a:hover { text-decoration: none;  color:#59A6B2; font-weight: ;}
+
+a.underline { text-decoration: underline; }
+a.underline:hover { text-decoration: none; }
+
+form li#li_grid{float: left; width:100px;}
+
+#conteudo_instalacao { border: 1px solid #ccc; border-radius: 15px; margin: 15px;padding: 15px; text-align: justify}
+
+#estatistica {float: left; padding: 15px}
+#estatistica tr.head{background-color: #157290; color: #ffffff}
+#estatistica tr{background-color:#C5DEF7; padding:5px }
+#estatistica tr.sub{background-color: #E2F0FF; font-size: 85% }
+
+#estatistica td{ padding: 3px 10px}
+
+
+/*STATUS DAS INSCRICOES DE EVENTOS*/
+.encerradas{color: #CC0000}

@@ -1,0 +1,5 @@
+.DS_Store
+*.tmproj
+nbproject
+.ftpssh_settings
+.idea

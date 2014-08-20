@@ -1,0 +1,148 @@
+/*
+Responsive Template Name: RS-1 Clean
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@import url(framework.css);
+@import url(navi.css);
+@import url(forms.css);
+@import url(tables.css);
+@import url(homepage.css);
+@import url(gallery.css);
+@import url(portfolio.css);
+
+html{overflow-y:scroll;}
+
+body{margin:0; padding:0; font-size:100%; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#FFFFFF;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style:none;}
+.hidden{display:none;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section{display:block; margin:0; padding:0;}
+
+/*----------------------------------------------Responsive Videos-------------------------------------*/
+
+.video{display:block; position:relative; width:100%; height:0; margin:0; padding:0 0 56.25% 0; /* using a 16:9 aspect ratio, the height is 56.25% of the width (9/16=0.5625) */}
+.video iframe{display:block; position:absolute; width:100%; height:100%; margin:0; padding:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{}
+
+.row1 a, .row2 a, .row3 a, .row4 a, .row5 a{color:#009EE0; background-color:#FFFFFF;}
+
+.row1, .row1 a{color:#666666; background-color:#FFFFFF;}
+.row2, .row2 a{}
+.row3, .row3 a{}
+.row4, .row4 a{}
+.row5 a{color:#666666; background-color:#FFFFFF;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+h1, h2, h3, h4, h5, h6{margin:0 0 8px 0; padding:0; font-size:1.4em; font-weight:normal; line-height:normal;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'� '; font-size:26px;}
+blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
+
+#header, #container, #footer, #copyright{margin:0 auto; font-size:.8em;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0; border-bottom:1px solid #D6D6D6;}
+
+#header hgroup{display:block; float:left; width:auto; clear:right;}
+#header hgroup h1, #header hgroup h2{margin:0; font-weight:normal; text-transform:none;}
+#header hgroup h1{font-size:2.5em;}
+#header hgroup h2{font-size:1em;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0; border-bottom:1px solid #D6D6D6;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:20px;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+
+/* ------Content-----*/
+
+#container #content{float:left; width:65.625%; margin-bottom:0;}
+
+/* ------Comments-----*/
+
+#comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
+#comments li.comment_odd, #comments li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments li.comment_odd a{color:#FF9900; background-color:#F7F7F7;}
+#comments li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments li.comment_even a{color:#FF9900; background-color:#E8E8E8;}
+#comments article, #comments header{display:block; width:100%;}
+#comments figure{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid #DEDACB; text-align:center;}
+#comments figure img{float:inherit;}
+#comments header address{font-weight:bold;}
+#comments header time{font-size:smaller;}
+#comments article section{margin:0; padding:0;}
+#comments article section p{margin:10px 5px 10px 0; padding:0;}
+
+/* ------Right Column-----*/
+
+#container #right_column{float:right; width:31.25%;}
+
+aside h2{padding-bottom:8px; font-size:1.2em; text-transform:uppercase; border-bottom:5px solid #CCCCCC; text-align:right;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:30px 0; line-height:1.6em; border-bottom:1px solid #D6D6D6;}
+
+#footer section{margin-bottom:0;}
+#footer section h2.title{margin:0 0 30px 0; padding:0;}
+#footer ul{margin:0; padding:0; list-style:none;}
+#footer p{margin:5px 0; padding:0;}
+
+/* ------Blogposts-----*/
+
+#footer section article header h2{font-size:100%; font-weight:bold;}
+#footer section article address, #footer section article time{font-size:10px; font-style:normal;}
+
+/* ------Quick Links-----*/
+
+#footer section nav li{margin:0 0 8px 0; padding:0 0 5px 0; border-bottom:1px solid #D6D6D6;}
+#footer section nav li.last{margin:0;}
+#footer section nav a{padding:0 0 0 10px; background:url("../images/arrow.gif") left center no-repeat;}
+
+/* ------Gallery-----*/
+
+#footer .ft_gallery li{display:block; float:left; width:auto;}
+
+/* ---Tweet Box---*/
+
+#footer .ft_tweets li{margin-bottom:10px;}
+
+/*----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:20px 0;}
+#copyright p{margin:0; padding:0;}

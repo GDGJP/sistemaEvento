@@ -1,0 +1,9 @@
+php_value memory_limit 1024M
+php_value max_execution_time 259200
+
+RewriteEngine ON
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z_]+).html$ index.php?controller=index&view=$1 [QSA]
+RewriteRule ^([a-zA-Z_]+)/([0-9]+)[-]+[a-zA-Z0-9_-]+.html$ index.php?controller=index&view=$1&id=$2 [QSA]

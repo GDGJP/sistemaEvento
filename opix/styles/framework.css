@@ -1,0 +1,70 @@
+/*
+Responsive Template Name: RS-1 Clean
+File: 960px Framework CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+.one_half, 
+.one_third, .two_third, 
+.one_quarter, .two_quarter, .three_quarter, 
+.one_fifth, .two_fifth, .three_fifth, .four_fifth{display:inline-block; float:left; margin:0 0 0 2.08333%; list-style:none;}
+
+.first, 
+.one_half:first-child, 
+.one_third:first-child, .two_third:first-child, 
+.one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child, 
+.one_fifth:first-child, .two_fifth:first-child, .three_fifth:first-child, .four_fifth:first-child{margin-left:0;}
+
+.two_half, .three_third, .four_quarter, .five_fifth{display:block; width:100%; clear:both;}
+
+/*----------------------------------------------Half Grid-------------------------------------*/
+
+/*
+.one_half{width:470px;} => 470 ÷ 960 = 0.4895833 * 100 = 48.95833
+.two_half{width:960px;} => 960 ÷ 960 = 1 * 100 = 100
+*/
+
+.one_half{width:48.95833%;}
+
+/*----------------------------------------------Third Grid-------------------------------------*/
+
+/*
+.one_third{width:306.66666px;} => 306.66666 ÷ 960 = 0.3194444 * 100 = 31.94444
+.two_third{width:633.33332px;} => 643.33332 ÷ 960 = 0.6597221 * 100 = 65.97221
+.three_third{width:960px;} => 960 ÷ 960 = 1 * 100 = 100
+*/
+
+.one_third{width:31.94444%;}
+.two_third{width:65.97222%;}
+
+
+/*----------------------------------------------Quarter Grid-------------------------------------*/
+
+/*
+.one_quarter{width:225px;} => 225 ÷ 960 = 0.234375 * 100 = 23.4375
+.two_quarter{width:470px;} => 470 ÷ 960 = 0.4895833 * 100 = 48.95833
+.three_quarter{width:715px;} => 715 ÷ 960 = 0.7447916 * 100 = 74.47916
+.four_quarter{width:960px;} => 960 ÷ 960 = 1 * 100 = 100
+*/
+
+.one_quarter{width:23.4375%;}
+.two_quarter{width:48.95833%;}
+.three_quarter{width:74.47916%;}
+
+
+/*----------------------------------------------Fifth Grid-------------------------------------*/
+
+/*
+.one_fifth{width:176px;} => 176 ÷ 960 = 0.1833333 * 100 = 18.33333
+.two_fifth{width:372px;} => 372 ÷ 960 = 0.3875 * 100 = 38.75
+.three_fifth{width:568px;} => 568 ÷ 960 = 0.5916666 * 100 = 59.16666
+.four_fifth{width:764px;} => 764 ÷ 960 = 0.7958333 * 100 = 79.58333
+.five_fifth{width:960px;} => 960 ÷ 960 = 1 * 100 = 100
+*/
+
+.one_fifth{width:18.33333%;}
+.two_fifth{width:38.75%;}
+.three_fifth{width:59.16666%;}
+.four_fifth{width:79.58333%;}

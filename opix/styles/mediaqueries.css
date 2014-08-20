@@ -1,0 +1,91 @@
+/*
+Responsive Template Name: RS-1 Clean
+File: Media Queries CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+/* 240 + 320px */
+
+@media screen 
+and (min-width : 240px) 
+and (max-width : 360px) {
+	#header, #featured_slide, #container, #footer, #copyright{max-width:320px; margin:0 auto;}
+	
+	.one_half, .two_third, 
+	.one_third, .two_third, .three_third, 
+	.one_quarter, .two_quarter, .three_quarter, .four_quarter, 
+	.one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{display:block; float:none; width:auto; margin:0 0 2% 0; padding:0;}
+		
+	.more{text-align:right; clear:both;}
+	
+	#header hgroup{display:block; width:100%; float:none; margin:0 0 15px 0; padding:0; text-align:center;}
+	#header #topnav{display:block; width:100%; float:none; margin:0 auto; padding:0;}
+	
+	#container #homepage #intro article{margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #DEDEDE;}
+	#container #homepage #intro article.last{padding-bottom:0; border-bottom:none;}
+	#container #homepage #services article{display:block; width:100%; float:none; margin:0 0 20px 0;}
+	
+	#container #content, #container #right_column{float:none; width:auto; margin-bottom:50px;}
+	aside h2{text-align:left;}
+
+	#footer section{margin-bottom:20px;}
+	#footer section.last{margin-bottom:0;}
+	
+	#header, #copyright{text-align:center;}
+	#copyright p{float:none; line-height:1.6em;}
+	#copyright p:first-child{margin-bottom:8px;}
+}
+
+/* 480px */
+
+@media screen 
+and (min-width : 361px) 
+and (max-width : 600px) {
+	#header, #featured_slide, #container, #footer, #copyright{max-width:460px; margin:0 auto;}
+	
+	.wrapper{padding:0 20px;}
+	
+	.more{text-align:right; clear:both;}
+	
+	#header hgroup{display:block; width:100%; float:none; margin:0 0 15px 0; padding:0;}
+	#header #topnav{display:block; width:100%; float:none; margin:0 auto; padding:0;}
+	
+	#container #homepage #intro{margin-bottom:0;}
+	#container #homepage #intro article{margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #DEDEDE;}
+	#container #homepage #intro article.last{margin-bottom:0; padding-bottom:0; border-bottom:none;}
+	#container #homepage #intro article.one_quarter{display:block; float:none; width:auto; margin:0 0 20px 0; padding:0;}
+	#container #homepage #intro article img{float:left; margin:0 20px 20px 0;}
+	#container #homepage #services article{display:block; width:100%; float:none; margin:0 0 20px 0;}
+	
+	#container #content, #container #right_column{float:none; width:auto; margin-bottom:50px;}
+	aside h2{text-align:left;}
+
+	#footer .one_quarter{display:block; float:none; width:auto; margin:0 0 20px 0; padding:0;}
+	#footer .last{margin:0;}
+	
+	#copyright p{float:none;}
+	#copyright p:first-child{margin-bottom:8px;}
+}
+
+/* 768px */
+
+@media screen 
+and (min-width : 551px) 
+and (max-width : 800px) {
+	#header, #featured_slide, #container, #footer, #copyright{max-width:700px; margin:0 auto;}
+	
+	.wrapper{padding:0 20px;}
+
+	#header hgroup{display:block; width:100%; float:none; margin:0 0 15px 0; padding:0;}
+
+	#header #topnav{display:block; width:100%; float:none; margin:0; padding:0;}
+	#header #topnav li{float:none; display:inline-block;}
+}
+
+/* 960px */
+
+@media screen and (min-width: 960px) {
+	#header, #featured_slide, #container, #footer, #copyright{max-width:960px; margin:0 auto;}
+}

@@ -1,0 +1,94 @@
+html {overflow-x:hidden; overflow-y:auto;} /*remove horizontal scroll bar in IE6!*/
+html, body {width:100%; height:100%; margin:0; padding:0; border:0 none;}
+body {padding:0; margin:0; border:0 none; font-family:arial; font-size:12px; color:#333333; background-image:url(images/bg1.jpg);}
+a, a:link, a:visited, a:hover, a:active {text-decoration:none; outline:0 none;}
+img {vertical-align:bottom; border:0 none;}
+div, pre {margin:0; padding:0;}
+pre {font-size:11px; color:#cccccc; border:1px solid #cccccc; width:100%; overflow-x:auto; overflow-y:hidden; padding-bottom:17px;}
+pre span {color:#808080;}
+div.codex {padding:4px 8px 10px 8px;display:none;}
+div.excowrap {padding-top:3px;}
+a.exco, a.exco:link, a.exco:visited, a.exco:hover, a.exco:active {display:block; background:#e8e8ff url(arrows.gif) no-repeat 99% 0; color:#333333; padding:1px 8px;}
+a.exco:hover {background-color:#ccccff; background-position: 99% -20px;}
+#description {background-color:#ffffff; width:620px; margin:0 auto; padding:5px 0;}
+#descInner {margin:0 15px 0 10px;}
+#descHead {text-align:right;}
+#descHead span {float:left;font-size:10px;}
+#description a.descFile:hover {text-decoration:underline;}
+
+
+/*CONFIGURACOES DA TELA DE INDEX DA CENTRAL DO ASSOCIADO*/
+#map {
+    background-color: #FFEFD5;
+    font-size: 16px;
+    height: 30px;
+    margin: 10px 0 -15px;
+    padding: 10px 50px 0 0;
+    text-align: center;
+}
+#img_map {
+    height: 80px;
+    margin: -30px 0 0;
+    position: absolute;
+    width: 80px;
+}
+#ass {
+    background: none repeat scroll 0 0 #0782C1;
+    border-radius: 15px 15px 0 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 3px 0 0 60px;
+    width: 280px;
+}
+#img {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+#bloco, #bloco_redes {
+    border: 1px solid #CCCCCC;
+    margin-top: 5px;
+    padding: 10px;
+    width: 317px;
+}
+#bloco a {
+    background-image: url("../imagens/set.png");
+    background-repeat: no-repeat;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 20px;
+}
+#bloco_redes img{
+	margin: 5px 0 0 15px;
+}
+
+.titulo {
+    color: #EE4E00;
+    font-size: 16px;
+}
+.contato{
+	font-size: 8.5px
+}
+.notify{
+	font-size: 11px;
+	color: #008000;
+	line-height: 25px;
+	}
+
+#assdoc {
+    background: none repeat scroll 0 0 #0782C1;
+    border-radius: 15px 15px 0 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 3px 0 0 60px;
+    width: 660px;
+}
+
+#blocodoc {
+    border: 1px solid #CCCCCC;
+    margin-top: 5px;
+    padding: 10px;
+    width: 700px;
+}

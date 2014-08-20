@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+body{ margin: 0 auto;}
+
+#full{ width:auto;}
+
+/* -- topo -- */
+#topo { width: 800px; margin: -80px auto 15px;}
+#topo_central { width: 800px; margin: 150px auto 0;}
+
+/* -- nome do usuario -- */
+#topo #user {background-color: #FFFFFF;border-bottom: 2px solid silver; border-radius: 7px 7px 7px 7px; border-right: 2px solid silver; float: right; margin: -40px 20px 0 0; padding: 4px 10px; text-align: center;}
+#topo_central #user_central {background-color: #FFFFFF; border-bottom: 2px solid silver; border-radius: 7px 7px 7px 7px; border-right: 2px solid silver; float: right; margin: -40px 20px 0 0; padding: 4px 10px; text-align: center;}
+
+/* -- logo -- */
+#topo #logo {border-radius: 0 0 20px 20px;height: 100px; margin-top: -230px;padding-top: 45px;width: 800px;/* BORDA ARREDONDA PARA TODOS OS NAVEGARORES */border-radius: 0 0 20px 20px;	border-radius: 0 0 20px 20px; /* Para Opera 10.5+*/	-moz-border-radius: 0 0 20px 20px; /* Para Firefox */-webkit-border-radius: 0 0 20px 20px; /*Para Safari e Chrome */}
+#topo_central #logo_central {border-radius: 0 0 20px 20px;height: 100px; margin-top: -230px;padding-top: 45px;width: 800px;/* BORDA ARREDONDA PARA TODOS OS NAVEGARORES */border-radius: 0 0 20px 20px;	border-radius: 0 0 20px 20px; /* Para Opera 10.5+*/	-moz-border-radius: 0 0 20px 20px; /* Para Firefox */-webkit-border-radius: 0 0 20px 20px; /*Para Safari e Chrome */}
+
+#corpo #breadcrumb { margin-top: 10px; padding: 15px 19px 0;}
+
+.banner {
+    background-image: url("../imagens/wave.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -50px 0 60px;
+    min-height: 150px;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+/*LOGOMARCA NO ERP*/
+#topo #logo a { width: 130px; height: 106px; display: block; background: url(../imagens/anid130.png); margin: -10px 0 0 25px;}
+
+
+/*LOGOMARCA DO LOGIN*/
+/*#box #logo a { width: 130px; height: 106px; display: block; background: url(../imagens/anid130.png); margin: 10px auto;}*/
+#box #logo a {
+    background: url("../imagens/logobrG.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 150px;
+    margin: 10px auto;
+    width: 260px;
+}
+
+
+
+/*div corpo da pagina*/
+#page {
+    background: url("../imagens/page.jpg") repeat scroll 0 0 transparent;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 1000px;
+    height: 800px;
+}
+
+
+#topo #notificacao {
+    margin: -46px auto auto 205px;
+    width: 289px;
+}
+
+/*Mensagem Notificacao Central*/
+.mensagem {font-size: 14px; min-height: 50px; color: red; padding: 5px;}
+
+
+/* -- Usuario -- */
+#topo #usuario {float:left; margin-top: -50px; padding-right: 20px; width: 150px;}
+
+#topo #usuario strong {float:left; padding: 6px 3px 0; }
+
+#topo #usuario ul.menubar{margin: 0px; padding: 0px;background-color: #FFFFFF; /* IE6 Bug */font-size: 100%;}
+ 
+#topo #usuario ul.menubar .submenu{ margin: 0px; padding: 0px;list-style: none; background-color: #FFFFFF;border: 1px solid #ccc;float:left;}
+ 
+#topo #usuario ul.menubar ul.menu{ display: none; position: absolute;margin: 0px;}
+ 
+#topo #usuario ul.menubar a{padding: 5px;display:block;text-decoration: none; color: #777; padding: 5px;}
+ 
+#topo #usuario ul.menu, ul.menu ul{ margin: 0; padding: 0; border-bottom: 1px solid #ccc; width: 150px; /* Width of Menu Items */
+  background-color: #FFFFFF; /* IE6 Bug */}
+ 
+#topo #usuario ul.menu li{ position: relative; list-style: none; border: 0px;}
+ 
+#topo #usuario ul.menu li a{  display: block; text-decoration: none;  border: 1px solid #ccc; border-bottom: 0px;  color: #777;
+  padding: 5px 10px 5px 5px;
+}
+ 
+#topo #usuario ul.menu li sup{ font-weight:bold;  font-size:7px; color: red;
+}
+ 
+/* Fix IE. Hide para IE Mac \*/
+* html #topo #usuario ul.menu li { float: left; height: 1%; }
+* html #topo #usuario ul.menu li a { height: 1%; }
+/* fim */
+ 
+#topo #usuario ul.menu ul{
+  position: absolute;
+  display: none;
+  left: 149px; 
+  top: 0px;
+}
+ 
+#topo #usuario ul.menu li.submenu ul { display: none; } 
+ 
+#topo #usuario ul.menu li.submenu { background: transparent url(arrow.gif) right center no-repeat; }
+ 
+#topo #usuario ul.menu li a:hover { color: #E2144A; }
+
+
+/* -- menu -- */
+
+#topo #menu { width: auto; height:50px; margin: 0 auto; font-family: "Arial Narrow", Arial, Helvetica, sans-serif; padding-bottom: 3px;  background: url(../imagens/bg-menu.png) repeat-x; }
+
+
+
+
+/* -- Tópicos-- */
+#topicos { width: 900px; background: url(../imagens/bg-topicos.gif) no-repeat; margin: 0 auto; ; padding: 1px 0 5px 0; font-family: "Arial Narrow", Arial, Helvetica, sans-serif; color: #999999; border-left:2px solid #BDBDBD; border-right:2px solid #BDBDBD; }
+
+#topicos h1 { font-size: 19px; text-transform: uppercase; font-weight: bold;  }
+
+/* -- corpo-- */
+#corpo{ 
+	width:800px;  
+	height:auto; 
+	margin: 0 auto;
+	border-radius: 20px;
+	-moz-border-radius: 20px;	
+	-webkit-border-radius: 20px;		
+	background: url("../imagens/bgclean.png") repeat scroll 0 0 transparent;
+	}
+	
+
+/*CORPO DA PAGINA DE INDEX*/
+#corpoLogin{ width:900px;  height:600px; margin: 0 auto; 
+background-image:url(../imagens/bgLogin.png) }
+
+
+
+#ft { width: auto;  height:20px;  margin: 5px auto  ; padding: 14px 10px 3px 0; font-family: "Arial Narrow", Arial, Helvetica, sans-serif; color: #FEFF49;text-align:right;}
+
+
+
+/*CONFIGURACOES NOVA INDEX CENTRAL*/
+#_body{background-image: url('../imagens/main-bg3.jpg');}
+
+/*#_body{background: none repeat scroll 0 0 #4486A7;}*/
+#_tudo { width: 1000px; margin: auto; background-image: url("../imagens/bgclean.png");}
+#_header { margin: auto}
+#_faixa{ background: #014674; color: #ffffff; font-size: 24px; padding: 10px; margin: 40px 0 0 0;}
+#_menulateral{ width: 150px; float: left}
+#_paginas{ width: 800px; float: right; padding: 10px }
+#_rodape{ text-align: center; background: #014674; color: #FFFFFF; padding: 10px}
+#_data{ font-size: 16px; float: right; padding: 5px}
+#_topo { width: 800px; margin: -30px auto 15px;}
+#_notificacao { font-size: 14px; padding: 0 0 10px 10px }
+#_titulo{font-size: 20px; color: #008080; margin: 20px 0 0 0}
+#_content{padding: 10px; font-size: 14px}
+
+/*INDEX CONFIGURAÇÕES*/
+#_corpo{font-size: 11px; padding: 20px;}
+#_h2{font-size: 16px}
+#_li {float: left; padding: 10px 0 0 70px; text-align: center;}
+#_descr {font-size: 16px; color: #FF0000; margin-left: 20px }
+#_imgConf{float: left; margin: 0 20px 0 15px;}
+#_ulConf{font-size: 14px; line-height: 20px}
+#_blocConf {border: 1px solid #CCCCCC; border-radius: 15px 15px 15px 15px; float: left; margin: 10px 10px 50px; padding: 10px; width: 210px;}
+#_blocos{float: left}
+
+
+/*Contas a receber*/
+#creceber { display: block;float: left;font-family: Tahoma;width: 180px;font-weight: normal;font-size: 16px;color: #008888; margin-top: 15px;}
+#creceber h4 {background-color: #A8D4DC;margin: 0 2px; padding: 2px 6px;}
+
+
+
+
+
+
+
+
+
+
+
+

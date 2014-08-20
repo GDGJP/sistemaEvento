@@ -1,0 +1,15 @@
+/*
+Responsive Template Name: RS-1 Clean
+File: Gallery CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#gallery{display:block; width:100%; line-height:1.6em;}
+#gallery figure{}
+#gallery figure header{margin:0 0 15px 0; padding:0; font-size:1em; line-height:normal;}
+#gallery figure figcaption{display:block; width:100%; margin:0; padding:0; clear:both;}
+#gallery ul{display:block; width:100%; margin:0; padding:0; list-style:none;}
+#gallery li{display:block; float:left; width:23.4375%; height:auto; margin:0 0 3.125% 3.125%;}
+#gallery li.first{width:46.875%; height:auto; margin-left:0;}
