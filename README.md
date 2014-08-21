@@ -99,7 +99,7 @@ The base content is in Pt-br.
     Everyone is permitted to copy and distribute verbatim copies
     of this license document, but changing it is not allowed.at
 
-       [http://www.gnu.org/licenses/gpl-2.0.txt](http://www.gnu.org/licenses/gpl-2.0.txt) http://www.gnu.org/licenses/gpl-2.0.txt
+       http://www.gnu.org/licenses/gpl-2.0.txt
 
    
 
