@@ -16,7 +16,7 @@ Siga as instruções de como se inscrever e devolvê-lo.
 
 1.  Decida qual o código que você deseja enviar. A apresentação deve ser um conjunto de mudanças 
 que aborda um problema no [issue tracker] (https://github.com/GDGJP/sistemaEvento/issues). 
-Por favor, não misture mais do que uma mudança de lógica por envio, porque fico muito difícil de seguir. 
+Por favor, não misture mais do que uma mudança de lógica por envio, porque fica muito difícil de seguir. 
 Se você quiser fazer uma mudança (por exemplo, adicionar uma amostra ou de um recurso), que não tenha um problema
 no correspondente issue tracker, por favor, crie um agora. 
 
