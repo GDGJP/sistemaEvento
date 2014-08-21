@@ -10,31 +10,29 @@ Organização das pastas:<br />
 | db (Script do banco)<br />
 | views (Templates do site)<br />
 | opix (Sistema Administrativo)<br />
- \ <br />
-  | DataTables-1.9.4<br />
-  | blueimp<br />
-  | ckeditor<br />
-  | colorpicker<br />
-  | components (Parte de configuração para o Administrador)<br />
-  | conexao	(Conexão com o banco usando PDO)<br />
-  | controllers (Controllers)<br />
-  | css<br />
-  | font<br />
-  | formbuilder<br />
-  | imagens_evento<br />
-  | images<br />
-  | img<br />
-  | jquery.jqGrid-4.5.2<br />
-  | jqueryui<br />
-  | js<br />
-  | models (Models)<br />
-  | scripts<br />
-  | styles<br />
-  | views (Telas e template do Administrador)<br />
-<br />
+\ <br />
+&nbsp;  | DataTables-1.9.4<br />
+&nbsp;  | blueimp<br />
+&nbsp;  | ckeditor<br />
+&nbsp;  | colorpicker<br />
+&nbsp;  | components (Parte de configuração para o Administrador)<br />
+&nbsp;  | conexao	(Conexão com o banco usando PDO)<br />
+&nbsp;  | controllers (Controllers)<br />
+&nbsp;  | css<br />
+&nbsp;  | font<br />
+&nbsp;  | formbuilder<br />
+&nbsp;  | imagens_evento<br />
+&nbsp;  | images<br />
+&nbsp;  | img<br />
+&nbsp;  | jquery.jqGrid-4.5.2<br />
+&nbsp;  | jqueryui<br />
+&nbsp;  | js<br />
+&nbsp;  | models (Models)<br />
+&nbsp;  | scripts<br />
+&nbsp;  | styles<br />
+&nbsp;  | views (Telas e template do Administrador)<br />
 <br />
 A - Setar a base url apontando para a raiz do sistema nos seguintes arquivos:
-<br />
 <br />
 1 - /Components/Configuracao.php<br />
 2 - /js/contaBancaria.js<br />
