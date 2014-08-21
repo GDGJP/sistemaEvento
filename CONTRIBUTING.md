@@ -25,7 +25,7 @@ Certifique-se de incluir o número do problema que está corrigido e o nome que 
 
 
 
-ENG
+English
 -------
 We'd love to accept your code patches! 
 
