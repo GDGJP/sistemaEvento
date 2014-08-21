@@ -1,6 +1,5 @@
 Feito em PHP OO formato MVC<br />
 <br />
-<br />
 Organização das pastas:<br />
 <br />
 | .settings	<br />
@@ -11,7 +10,7 @@ Organização das pastas:<br />
 | db (Script do banco)<br />
 | views (Templates do site)<br />
 | opix (Sistema Administrativo)<br />
- \<br />
+ \ <br />
   | DataTables-1.9.4<br />
   | blueimp<br />
   | ckeditor<br />
