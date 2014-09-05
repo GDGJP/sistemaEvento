@@ -7,7 +7,7 @@ GDG Sistema de Eventos é uma ferramenta que facilita o planejamento dos eventos
 GDG Event System is a tool that facilitates the planning of events and integrated with your website GDG. Our goal is to build a resource for developers who want to more easily plan your events, generate certificates, open registration of persons and many more.
 
 <br />
-Organização das pastas:
+Organização das pastas / Organization:
 ------------
 
 ```
