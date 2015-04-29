@@ -5,9 +5,7 @@ pt-br
 GDG Sistema de Eventos é uma ferramenta que facilita o planejamento dos eventos e integrada com o seu site do GDG. Nosso objetivo é construir um recurso para desenvolvedores que querem ter mais facilidade de planejar seus eventos, gerar certificados, abrir inscrições e muitos mais.
 
 GDG Event System is a tool that facilitates the planning of events and integrated with your website GDG. Our goal is to build a resource for developers who want to more easily plan your events, generate certificates, open registration of persons and many more.
---------
-Login: admin@email.com / Key: 123
---------
+
 <br />
 Organização das pastas / Organization:
 ------------
@@ -81,7 +79,10 @@ Before submitting a pull request, please review [CONTRIBUTING.md](CONTRIBUTING.m
 and make sure that there is an issue filed describing the fix or new content.
 If you don't complete these steps, we won't be able to accept your pull request, sorry.
 
-
+Acesso com login / Login acess
+=============================
+usuário/login: admin@email.com 
+senha/key: 123
 
 Linguagem / Language
 =============================
