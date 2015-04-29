@@ -79,7 +79,7 @@ Before submitting a pull request, please review [CONTRIBUTING.md](CONTRIBUTING.m
 and make sure that there is an issue filed describing the fix or new content.
 If you don't complete these steps, we won't be able to accept your pull request, sorry.
 
-Acesso com login / Login acess
+Acesso com login / Access with login
 =============================
 usuário/login: admin@email.com 
 senha/key: 123
